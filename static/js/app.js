@@ -7,8 +7,8 @@ async function Clasificator(inputRaw,datavalue)
 }
 
 function CreateUser(params, Clasificator) {
-var domainname = 'http://localhost/moodle/';
-    var token = 'ce13720bd9a10593c24c0850ca8481d8';
+var domainname = 'http://aturitmo-esi-ssr.byethost31.com';
+    var token = 'f1ae7a5c364d6263e39229dedfaacc18';
     var functionname = 'core_user_create_users';
     var serverurl = domainname + '/webservice/rest/server.php' ;
     
@@ -82,8 +82,8 @@ $(document).ready(function() {
    //New Function
     function RegistarUsu(user, clasificar){
 
-    var domainname = 'http://localhost/moodle/';
-    var token = '29b7a963732a18bf169af548bbec7ad9';
+    var domainname = 'http://aturitmo-esi-ssr.byethost31.com';
+    var token = '8a9b8cb56ab758a7cc50ae78961c096f';
     var functionname = 'enrol_manual_enrol_users';
     var serverurl = domainname + '/webservice/rest/server.php' ;
 
